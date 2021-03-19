@@ -1,0 +1,204 @@
+body{
+    background-color:gray;
+   
+}
+.list{
+    width: 80%; 
+ }
+.files{
+   display:flex;
+   width: 100%;
+   justify-content: space-around;
+   background-color: white;
+   border: 1px solid whitesmoke;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   margin-left: 30px;
+}
+.number{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.image{
+width: 20px;
+height: 20px;
+margin-left: 20px;
+margin-top: 15px;
+}
+.play{
+    color: #8b8b99;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.song{
+    width: 50%;
+font-weight: 600;
+margin-left: 80px;
+}
+.music{
+color: #8b8b99;
+margin-left: 90px;
+}
+.time{
+    color: #8b8b99;
+    margin-left: 90px;
+}
+#fav{
+  color: red;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+#love{
+    color: gray;
+    margin-left: 50px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+h1{
+    margin-left: 30px;
+}
+.head{
+    margin-left: 30px;
+  
+}
+.para{
+    color: #8b8b99;
+   margin-left: 30px;
+   
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 8% 25% 0%;
+    box-shadow: 8px 8px 8px gray;
+}
+.img-section{
+    width: 90%;
+    height: 360px;
+    background-color: white;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display:flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    
+}
+.pic{
+    width: 190px;
+    height: 200px;
+   
+    border-radius:20px;
+    margin:0px 20px 0px 0px;
+    box-shadow: 4px 10px 8px gray, 4px 10px 8px lightcoral ;
+}
+.pic:hover{
+    transform: scale(1.2);
+}
+.grid{
+    display: flex;
+    margin-left: 30px;
+}
+#search{
+    position: relative;
+    width: 350px;
+}
+
+#search-box{
+    width: 100%;
+    padding: 8px  44px;
+    padding-right: 10px;
+    font-size: 12px;
+  letter-spacing:0.8px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+#search-icon{
+    position:absolute;
+    left: 10px;
+    bottom: 8px;
+    cursor: pointer;
+    padding: 0px 5px;
+}
+
+#set-icon{
+    margin: 0px 20px;
+}
+
+.btn{
+    background-color:lightcoral;
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    font-size: 11px;
+    border-radius: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+}
+
+#topbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+.icon-index{
+    display:flex;
+   margin: 30px;
+}
+.icon-index:hover{
+     color: deepskyblue;
+}
+
+.msd{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px gray;
+
+}
+.owner{
+    text-align: center; 
+   
+}
+.right{
+    background-color: white;
+    width: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.left{
+    background-color:#fcfcfc;
+    width: 80%;
+    
+}
+main{
+    display: flex;
+   
+    border: 5px solid white;
+    border-radius: 20px;
+    margin: 50px 50px;
+}
+.field{
+    margin-right: 20px;
+}
+.icons{
+    background-color:whitesmoke;
+}
