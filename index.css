@@ -1,0 +1,36 @@
+body{
+background-color: black;
+}
+.topbar{
+    color: white;
+display: flex;
+justify-content: space-between;
+}
+.row{
+    display: flex;
+}
+
+.heading{
+    margin-bottom: 5px;
+    color: white;
+}
+.netflix{
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+}
+.img{
+    margin-right:5px;
+    width: 245px;
+    height: 180px;
+   
+}
+.img:hover{
+    transform:scale(1.2) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px deepskyblue;
+}
+.index:hover{
+    color: deepskyblue;
+    transform: scale(1.1);
+}
